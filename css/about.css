@@ -1,0 +1,462 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    margin: 0;
+}
+
+.fontcolor {
+    color: #967d48;
+}
+
+.no_line {
+    background: none;
+    color: transparent;
+    border: 0;
+    margin: 0 auto 34px auto;
+}
+
+.no_line1 {
+    background: none;
+    color: transparent;
+    border: 0;
+    margin: 0 auto 622px auto;
+}
+
+/* body start*/
+.row1 {
+    display: flex;
+}
+
+.row1_no_line1 {
+    background: none;
+    color: transparent;
+    border: 0;
+    margin: 0 auto 622px auto;
+}
+
+.fixed-bg {
+    background-image: url("../images/about-header.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: -1;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4vmin;
+}
+
+.no_line1 {
+    background: none;
+    color: transparent;
+    border: 0;
+    margin: 0 auto 622px auto;
+}
+
+/*row2 start*/
+.row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.row2>h2 {
+    text-align: center;
+
+}
+
+/*row2 end*/
+
+/*row3*/
+.row3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row3-side1 {
+    flex: 15%;
+}
+
+.row3-side2 {
+    flex: 70%;
+}
+
+.row3-side2 {
+    text-align: center;
+    font-size: 3vmin;
+}
+
+.row3-side3 {
+    flex: 15%;
+}
+
+/* row3 end*/
+/*row4 start*/
+.row4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.row4>img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* row4 end*/
+/* row5 start*/
+.row5 {
+    display: flex;
+}
+
+.row5-fixed-bg {
+    background-image: url("../images/greenland1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: -1;
+}
+
+/* row5 end*/
+
+
+
+/*row6*/
+.row6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row6-side1 {
+    flex: 10%;
+}
+
+.row6-side2 {
+    flex: 80%;
+}
+
+.row6-side2>h3 {
+    font-size: 38px;
+}
+
+.row6-side2>p {
+    font-size: 3vmin;
+}
+
+.row6-side3 {
+    flex: 10%;
+}
+
+/* row6 end*/
+
+
+/*row7*/
+.row7 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.row7-side1 {
+    flex: 10%;
+}
+
+.row7-side2 {
+    flex: 40%;
+    text-align: left;
+    line-height: 1.8em;
+}
+
+.backcolor {
+    background-color: #967d48;
+}
+
+.row7-side3 {
+    flex: 40%;
+    text-align: left;
+    line-height: 1.8em;
+}
+
+.row7-side4 {
+    flex: 10%;
+}
+
+.row7-side3>p {
+    font-size: 3vmin;
+}
+
+.row7-side2>p {
+    font-size: 3vmin;
+}
+
+
+/* row7 end*/
+/* navbar start*/
+.navbar {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.navbar a {
+    color: black;
+    padding: 30px 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar img {
+    height: 33px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    color: #967d48;
+}
+
+.navbar .active {
+    color: #967d48;
+}
+
+/*navbar end*/
+/* footer start*/
+footer {
+    color: #252525;
+    background-color: hsla(0, 10%, 90%, 0.62);
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.Contact-us-text {
+    text-align: center;
+}
+
+.row5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.find-us {
+    flex: 33.33%;
+}
+
+.Contact-us {
+    flex: 33.33%;
+    text-align: center;
+}
+
+.Localization {
+    flex: 33.33%;
+    text-align: center;
+}
+
+
+.copyrights {
+    text-align: left;
+    margin-left: 100px;
+}
+
+/* footer end*/
+
+@media (max-width: 410px) {
+    .row1_no_line1 {
+        margin: 0 auto 909px auto !important;
+    }
+
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 575px) {
+    .navbar {
+        display: none;
+    }
+
+    .row1_no_line1 {
+        margin: 0 auto 472px auto !important;
+    }
+
+
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Contact-us {
+        margin-top: 10%;
+    }
+
+    .Contact-us>h1 {
+        padding-right: 7%;
+        text-align: center;
+    }
+
+
+    .Localization {
+        margin-top: 10%;
+    }
+
+    .row4>img {
+        padding: 5%;
+    }
+
+    .row6-side2>p {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .row6-side2>h4 {
+        text-align: center;
+    }
+
+    .row7 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .row7-side2 {
+        padding: 5%;
+        text-align: center;
+    }
+
+    .row7-side3 {
+        padding: 5%;
+        text-align: center;
+    }
+
+    .row5-fixed-bg {
+        background-image: url("../images/greenland1.jpg");
+        background-position: center;
+        height: 400px;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        color: white;
+        z-index: 1;
+
+    }
+
+    .fixed-bg {
+        background-image: url("../images/about-header.jpg");
+        background-position: center;
+        width: 100%;
+        height: 400px;
+        position: relative;
+        text-align: center;
+        color: white;
+        z-index: 1;
+    }
+
+    .row1_no_line1 {
+        display: none;
+    }
+
+    .no_line1 {
+        display: none;
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+        display: none;
+    }
+
+    .row1_no_line1 {
+        margin: 0 auto 472px auto !important;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Contact-us {
+        margin-top: 10%;
+    }
+
+    .Localization {
+        margin-top: 10%;
+    }
+
+    .row7 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .row7-side2 {
+        padding: 5%;
+        text-align: center;
+    }
+
+    .row7-side3 {
+        padding: 5%;
+        text-align: center;
+    }
+
+    .row5+.no_line1 {
+        margin: 0 auto 483px auto !important;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar {
+        display: none;
+    }
+
+    .row1_no_line1 {
+        margin: 0 auto 473px auto !important;
+    }
+
+    .row5+.no_line1 {
+        margin: 0 auto 473px auto !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        display: none;
+    }
+
+    .row1_no_line1 {
+        margin: 0 auto 622px auto;
+    }
+
+    .row5+.no_line1 {
+        margin: 0 auto 600px auto;
+    }
+}
